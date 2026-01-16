@@ -1,4 +1,4 @@
-![CI](https://github.com/meghrajs/suite-crafter/actions/workflows/deploy.yml/badge.svg)
+![CI](https://github.com/meghrajs/suite-crafter/actions/workflows/deply.yml/badge.svg)
 # SuiteMate - Automation Framework Generator
 
 ![SuiteMate Banner](./banner.png)

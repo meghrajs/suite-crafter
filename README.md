@@ -1,6 +1,6 @@
 # SuiteMate - Automation Framework Generator
 
-![SuiteMate Banner](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1200&h=400)
+![SuiteMate Banner](./banner.png)
 
 **SuiteMate** is a powerful web-based tool designed to help QA engineers and developers generate production-ready automation testing frameworks in seconds. Whether you need a UI testing suite with Playwright or an API testing framework with RestAssured, SuiteMate configures the entire folder structure, dependencies, and sample code for you.
 

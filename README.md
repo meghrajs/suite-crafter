@@ -20,22 +20,6 @@
 
 This project is built as a static client-side application, making it incredibly easy to host and run.
 
-### Running Locally
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/suite-crafter.git
-   cd suite-crafter
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the dev server:
-   ```bash
-   npm run dev
-   ```
-
 ## 🏗️ Technology Stack
 
 - **Frontend**: React, TypeScript, Vite

@@ -20,7 +20,12 @@ Live Demo: <https://meghrajs.github.io/suite-crafter/>
 
 ## 🛠️ Usage
 
-This project is built as a static client-side application, making it incredibly easy to host and run.
+SuiteMate helps you generate a complete automation framework architecture in seconds. Instead of setting up folders and dependencies manually:
+
+1.  **Configure**: Select your preferred tools (UI, API, Language).
+2.  **Generate**: Click to create your custom framework.
+3.  **Download**: Get a ZIP file containing your ready-to-use project.
+4.  **Run Locally**: Extract the files and start writing tests immediately.
 
 ## 🏗️ Technology Stack
 

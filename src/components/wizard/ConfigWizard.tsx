@@ -187,35 +187,6 @@ export function ConfigWizard() {
             </div>
           </div>
 
-          <div className="mt-6 rounded-xl border border-border bg-background/60 p-4">
-            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-              <div>
-                <p className="text-sm font-medium">Need help or want to report something?</p>
-                <p className="text-xs text-muted-foreground">
-                  Bugs & feature requests → GitHub Issues. Private questions → email.
-                </p>
-              </div>
-          
-              <div className="flex items-center gap-3">
-                <a
-                  href="https://github.com/meghrajs/suite-crafter/issues/new/choose"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:opacity-90"
-                >
-                  Open an Issue
-                </a>
-          
-                <a
-                  href="mailto:meghrajwithandroid@gmail.com?subject=SuiteMate%20Question"
-                  className="text-sm text-primary underline underline-offset-4 hover:opacity-90"
-                >
-                  meghrajwithandroid@gmail.com
-                </a>
-              </div>
-            </div>
-          </div>
-
 
           {/* Live Preview */}
           <div className="lg:col-span-2 hidden lg:block">

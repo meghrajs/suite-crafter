@@ -6,6 +6,9 @@ import { generateFolderTree } from '@/lib/folderTree';
 import { generateAndDownloadZip } from '@/lib/zipGenerator';
 import { Download, Check, Loader2, ArrowRight, Sparkles } from 'lucide-react';
 
+const SUPPORT_EMAIL = "meghrajwithandroid@gmail.com";
+const GITHUB_NEW_ISSUE = "https://github.com/meghrajs/suite-crafter/issues/new/choose";
+
 interface StepGenerateProps {
   config: ProjectConfig;
 }
@@ -100,6 +103,39 @@ export function StepGenerate({ config }: StepGenerateProps) {
           )}
         </Button>
       </div>
+
+      {/* Support */}
+      <div className="rounded-xl border border-border bg-background/60 p-4">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <div>
+            <p className="text-sm font-medium text-foreground">Questions or feedback?</p>
+            <p className="text-xs text-muted-foreground">
+              Bugs & feature requests → GitHub Issues. Private questions → email.
+            </p>
+          </div>
+      
+          <div className="flex items-center gap-3">
+            <a
+              href={GITHUB_NEW_ISSUE}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:opacity-90"
+            >
+              Open an Issue
+            </a>
+      
+            <a
+              href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(
+                `SuiteMate — ${config.projectName} (${config.language})`
+              )}`}
+              className="text-sm text-primary underline underline-offset-4 hover:opacity-90"
+            >
+              {SUPPORT_EMAIL}
+            </a>
+          </div>
+        </div>
+      </div>
+
 
       {/* Next Steps */}
       {isComplete && (

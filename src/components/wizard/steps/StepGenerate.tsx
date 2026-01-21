@@ -106,35 +106,38 @@ export function StepGenerate({ config }: StepGenerateProps) {
 
       {/* Support */}
       <div className="rounded-xl border border-border bg-background/60 p-4">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-          <div>
+        <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+          {/* Left copy */}
+          <div className="min-w-0 flex-1">
             <p className="text-sm font-medium text-foreground">Questions or feedback?</p>
             <p className="text-xs text-muted-foreground">
               Bugs & feature requests → GitHub Issues. Private questions → email.
             </p>
           </div>
       
-          <div className="flex items-center gap-3">
+          {/* Right CTAs */}
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:shrink-0">
             <a
-              href={GITHUB_NEW_ISSUE}
+              href="https://github.com/meghrajs/suite-crafter/issues/new/choose"
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center justify-center rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:opacity-90"
+              className="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 whitespace-nowrap"
             >
               Open an Issue
             </a>
       
             <a
-              href={`mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent(
+              href={`mailto:meghrajwithandroid@gmail.com?subject=${encodeURIComponent(
                 `SuiteMate — ${config.projectName} (${config.language})`
               )}`}
-              className="text-sm text-primary underline underline-offset-4 hover:opacity-90"
+              className="text-sm text-primary underline underline-offset-4 hover:opacity-90 whitespace-nowrap"
             >
-              {SUPPORT_EMAIL}
+              meghrajwithandroid@gmail.com
             </a>
           </div>
         </div>
       </div>
+
 
 
       {/* Next Steps */}
